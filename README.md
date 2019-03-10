@@ -28,6 +28,12 @@ nuxt.js是基于vue.js的服务端渲染框架，主要关注的是应用的UI�
 14. mv 1.txt 2.txt：将当前目录的1.txt 移动到当前目录，并改名为2.txt
 15. cp 1.txt 2.txt：将当前目录下的1.txt拷贝一份，并放到当前目录下，并命名为2.txt
 16. (方向键上下键，可以翻看历史命令)
+17. 安装tree：brew install tree
+18. tree -I node_modules:文件以树的形式展示，node_modules可以替换成你想要过滤掉不展示的目录
+19. tree -L n:n表示显示项目的层级，n=3即只显示项目的三层结构
+20. tree -d:只显示文件夹
+21. tree -D:显示文件的最后修改时间
+22. 注意：tree后面的参数都区分大小写
 
 ## vi命令
 
